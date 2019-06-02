@@ -1,21 +1,22 @@
 # Machine-Learning-Projects - Udacity nano degree projects
 
 
-Term 1 Projects - 
+# Term 1 Projects - 
 
-1. Boston housing dataset
+## 1. Boston housing dataset
 
-     Model -
+  ### Model -
      
-          DecisionTreeRegressor
+           DecisionTreeRegressor
           
-     Concepts covered - 
+  ### Concepts covered - 
      
-          Loading data using pandas
-          Statistical analysis of features using numpy
-          Performance metrics - r2_score, complexity curve
-          Splitting data for training and testing 
-          Grid search cross validation - to select hyperparameters
-          Fitting the model 
-          Prediction on data
+           Load the dataset using pandas.
+           Data exploration and statistical analysis of features using numpy.
+           Implementation of performance metric using r2_score.
+           Split data for training and testing.
+           Analyzing model performance -  learning and complexity curves.
+           Grid search cross validation for selecting hyperparameters.
+           Fitting a model. 
+           Make predictions on the data.
           
