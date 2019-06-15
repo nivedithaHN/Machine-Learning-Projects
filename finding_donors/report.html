@@ -13126,7 +13126,14 @@ We can also see from the result above that it doesn't overfit the data as both a
 <p>Model - Gradient Boosting Classifier</p>
 <p>It is an ensembling model. (ie. join multiple models to get a better model).<br>
 Ensembling models give slightly better accuracy rather than just single model.</p>
-<p>Gradient boosting classifier is combination of multiple sequential decision tree models. Output of one decision tree is given to subsequent decision tree. Also subsequent decision tree learns from the mistakes of previous decision tree. The outcomes predicted correctly from one model are given a lower weight and the ones miss-classified are weighted higher in the next model. 
+<p>Gradient boosting classifier is combination of multiple sequential decision tree models.</p>
+<p>Let me explain what is decision tree classifier - 
+<img src="images/binary_tree.png" alt="title"></p>
+<p>Let's classify if a given person is fit or not (binary classification) using binary tree classifier (considering just 3 features - age , does the person excerise or eat pizza)-</p>
+<p>First check if person's age is less than or greater than 30.
+If less than 30, check if person eats pizza. If yes, person is unfit else he is fit.
+If the person's age is more than or equal to 30, check if he/she excerises. If yes, person is fit else he/she is unfit.</p>
+<p>Output of one decision tree is given to subsequent decision tree. Also subsequent decision tree learns from the mistakes of previous decision tree. The outcomes predicted correctly from one model are given a lower weight and the ones miss-classified are weighted higher in the next model. 
 When a new set of data is given for prediction, it is passed through the model again and classifies whether a person will donate to charity or not.</p>
 
 </div>
