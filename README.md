@@ -1,4 +1,4 @@
-# Machine-Learning-Projects - Udacity nano degree projects
+# Machine-Learning-Projects - Udacity nano degree 
 
 
 # Term 1 Projects - 
