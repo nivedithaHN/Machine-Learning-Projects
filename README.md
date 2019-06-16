@@ -19,4 +19,23 @@
            Grid search cross validation for selecting hyperparameters.
            Fitting a model. 
            Make predictions on the data.
+           
+## 2. Finding donors for charity
+
+  ### Model - 
+  
+            Gradient Boosting Classifier
+            
+  ### Concepts covered - 
+  
+            Data exploration and preprocessing.
+            Implementation of performance metrics. 
+            Calculating Naive predictor performance.
+            Creating training and predicting pipeline.
+            Selecting supervised learning model that best fits the given dataset. 
+            Model tuning to improve the performance.
+            Final model evaluation.
+            Extracting feature importance.
+            
+            
           
