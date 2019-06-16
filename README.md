@@ -31,7 +31,7 @@
             Data exploration and preprocessing.
             Implementation of performance metrics. 
             Calculating Naive predictor performance.
-            Creating training and predicting pipeline.
+            Creating a training and predicting pipeline.
             Selecting supervised learning model that best fits the given dataset. 
             Model tuning to improve the performance.
             Final model evaluation.
